@@ -1,7 +1,48 @@
 
 
 jQuery(document).ready(function() {
-	
+	$(document).ready(function(){
+  		$(".slide").slick({
+  			autoplay:true,
+  			fade:true,
+  			autoplaySpeed:2500,
+  			pauseOnHover:false,
+  			cssEase:'linear',
+  			dots:true
+  		});
+
+  	});
+
+  	$(document).ready(function(){
+  		$(".slide2").slick({
+	  		centerMode: true,
+			centerPadding: '60px',
+			slidesToShow: 3,
+			responsive: [
+			{
+			  breakpoint: 768,
+			  settings: {
+			    arrows: false,
+			    dots: true,
+			    centerMode: true,
+			    centerPadding: '40px',
+			    slidesToShow: 1
+			  }
+			},
+			{
+			  breakpoint: 480,
+			  settings: {
+			    arrows: false,
+			    dots:true,
+			    centerMode: true,
+			    centerPadding: '40px',
+			    slidesToShow: 1
+			  }
+			}
+			]
+  		});
+
+  	});
 	/*
 	    Wow
 	*/
