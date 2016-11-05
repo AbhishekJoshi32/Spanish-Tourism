@@ -39,12 +39,11 @@ button{
 	font-family: 'Arial Black';
 	font-size: 20px;
 	font-weight: normal;
-	height: 54px;
 	line-height: 47px;
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
-	width: 230px;
+	padding: 20px;
 }
 button:hover{
 	background:none; 
@@ -69,6 +68,10 @@ button:hover{
 	color: #838282;
 	margin-right: 50px;
 	margin-top: 20px;
+}
+
+.lis .cit_tab .button button{
+	padding: 10px 20px;
 }
 
 /*----------------------------------------header-styles---------------------------------------*/
@@ -230,12 +233,14 @@ button:hover{
 	animation-delay: 0.5s;
 	margin-top: 40px;
 }
+
 #trip{
 	display:none;
 	margin:auto;
 	margin-bottom: 300px;
 	animation-delay: 0.5s;
 }
+
 img#wel{
 	width:259px;
 	height: 194px;
@@ -252,6 +257,25 @@ img#wel{
 	margin: 30px auto;
 }
 
+.ind-cont{
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #dadada;
+	width: 95%;
+	margin:0 auto 20px;
+	color: black;
+	text-align: left;
+}
+
+.spic img{
+    width: 100%;
+}
+
+.slide-caption h3{
+	padding-left: 20px;
+	font-weight: bolder;
+
+}
 
 /*----------------------------------------city-styles---------------------------------------*/
 
@@ -313,20 +337,7 @@ img#wel{
 	text-transform: none;
 }
  
- div h3 {
-	background: url(../images/bg-border1.gif) no-repeat center top;
-	color: #FFFFFF;
-	display: block;
-	font-family: Arial;
-	font-size: 25px;
-	font-weight: bold;
-	letter-spacing: 0.02em;
-	line-height: 48px;
-	margin: 0 auto 15px;
-	padding: 18px 0 0;
-	text-align: center;
-	width: 611px;
-}
+
  div h3 span {
 	background: url(../images/bg-border1.gif) no-repeat center bottom;
 	display: block;
@@ -573,6 +584,19 @@ img#wel{
 
 .head{
 	margin-bottom: 40px;
+
+}
+
+.head h2{
+	margin-top: 60px;
+	color: black;	
+	font-weight: bolder;
+	font-size: 56px;
+
+}
+
+.button{
+	text-align: center;
 }
 
 .cities h2{
@@ -669,9 +693,10 @@ margin: 5px 0;
 }
 
 .next button{
-	width:10%;
+	width:20%;
 	margin: auto;
-	font-size: 70%;
+	font-size: 90%;
+	padding:0;
 }
 
 
